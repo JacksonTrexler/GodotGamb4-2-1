@@ -1,0 +1,6 @@
+## Initiative
+- On nat 20: burst into action, you get priority over natural rolls and an extra action this turn
+- On nat 1: Fumble, lose your action first turn.
+- Suprise: When surprising, burst on 19, when surprised, fumble on 2
+- On turn end, you lose 20 - mod initiative, on round end, everyone gains 20 + mod initiative
+	* This means with an initiative of 23, that unit may go again at initiative 3
