@@ -1,0 +1,8 @@
+[gd_scene load_steps=3 format=3 uid="uid://tbee6ecvfb2o"]
+
+[ext_resource type="PackedScene" uid="uid://c1nxt6t2qkqxn" path="res://Scenes/GameManager.tscn" id="1_jdini"]
+[ext_resource type="PackedScene" uid="uid://eksjd6kck7iq" path="res://Scenes/chess_board.tscn" id="2_c3s56"]
+
+[node name="GameManager" instance=ExtResource("1_jdini")]
+
+[node name="ChessBoard" parent="Tiles" index="0" instance=ExtResource("2_c3s56")]
