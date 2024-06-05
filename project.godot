@@ -13,8 +13,12 @@ config_version=5
 config/name="GodotGamb4-2-1"
 run/main_scene="res://Scenes/node_2d.tscn"
 config/features=PackedStringArray("4.2", "Forward Plus")
-config/icon="res://icon.svg"
+config/icon="res://Sprites/icong.png"
 
 [dotnet]
 
 project/assembly_name="GodotGamb4-2-1"
+
+[rendering]
+
+textures/canvas_textures/default_texture_filter=0
