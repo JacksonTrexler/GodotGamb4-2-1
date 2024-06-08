@@ -3,14 +3,15 @@ extends Resource
 #Requires Unit
 class_name Effect
 
-var intensity : int
+var intensity : float
 var rounds : int
+var stat : String
 
 var icon : Sprite2D 
 var animation : AnimatedSprite2D
 var sound #What is this?
 
-func _init(_intensity : int = 1, _rounds : int = 0):
+func _init(_intensity : int = 1, _rounds : int = 0, ):
 	intensity = _intensity;
 	rounds = _rounds;
 	
@@ -30,8 +31,7 @@ func applyEffect(target: Unit):
 	
 # Effect Components
 func heal(target: Unit, amount: int, mod = 0):
-	target.HP += amount;
+	target.HP += floor(amount * intensity + mod);
 	
 func hurt(target: Unit, amount: int, mod = 0):
-	target.HP += amount;
-
+	target.HP += floor(amount * intensity + mod);
