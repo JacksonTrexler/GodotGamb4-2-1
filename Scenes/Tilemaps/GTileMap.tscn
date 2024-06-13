@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://c14lnohb54mc5"]
+
+[ext_resource type="TileSet" uid="uid://c48lx78qjqg3m" path="res://Tilesets/GambesonStandard.tres" id="1_iqvxf"]
+[ext_resource type="Script" path="res://Scripts/Tiles/TileTool.gd" id="1_j0sq5"]
+
+[node name="GTileMap" type="TileMap"]
+tile_set = ExtResource("1_iqvxf")
+format = 2
+script = ExtResource("1_j0sq5")

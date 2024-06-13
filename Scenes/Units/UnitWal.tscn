@@ -1,6 +1,6 @@
 [gd_scene load_steps=8 format=3 uid="uid://bdo6hmff8adg8"]
 
-[ext_resource type="PackedScene" uid="uid://bn5rerbxa3fac" path="res://Scenes/unit.tscn" id="1_3qs5p"]
+[ext_resource type="PackedScene" uid="uid://bn5rerbxa3fac" path="res://Scenes/Units/unit.tscn" id="1_3qs5p"]
 [ext_resource type="Texture2D" uid="uid://ujip8oi8hi2f" path="res://Sprites/Units/WarriorGalSelect.png" id="2_1577x"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_w7836"]

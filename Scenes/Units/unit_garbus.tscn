@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=3 uid="uid://xgdfsqfv5k56"]
 
-[ext_resource type="PackedScene" uid="uid://bn5rerbxa3fac" path="res://Scenes/unit.tscn" id="1_r4625"]
+[ext_resource type="PackedScene" uid="uid://bn5rerbxa3fac" path="res://Scenes/Units/unit.tscn" id="1_r4625"]
 [ext_resource type="SpriteFrames" uid="uid://cryedtvu042yg" path="res://Sprites/Units/sprite_garbus.tres" id="2_skn6f"]
 
 [node name="Unit" instance=ExtResource("1_r4625")]
