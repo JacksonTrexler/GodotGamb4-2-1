@@ -1,0 +1,58 @@
+[gd_scene load_steps=8 format=3 uid="uid://bdo6hmff8adg8"]
+
+[ext_resource type="PackedScene" uid="uid://bn5rerbxa3fac" path="res://Scenes/unit.tscn" id="1_3qs5p"]
+[ext_resource type="Texture2D" uid="uid://ujip8oi8hi2f" path="res://Sprites/Units/WarriorGalSelect.png" id="2_1577x"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_w7836"]
+atlas = ExtResource("2_1577x")
+region = Rect2(0, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xu472"]
+atlas = ExtResource("2_1577x")
+region = Rect2(32, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fmecy"]
+atlas = ExtResource("2_1577x")
+region = Rect2(64, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7xaw5"]
+atlas = ExtResource("2_1577x")
+region = Rect2(96, 0, 32, 32)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_hq6qp"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_w7836")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xu472")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fmecy")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7xaw5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7xaw5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fmecy")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xu472")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_w7836")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[node name="Wal" instance=ExtResource("1_3qs5p")]
+
+[node name="AnimatedSprite2D" parent="." index="0"]
+sprite_frames = SubResource("SpriteFrames_hq6qp")
+frame_progress = 0.803049

@@ -1,5 +1,6 @@
 class_name Unit extends Node2D
 
+
 enum UnitState{
 	ALIVE,
 	DEAD,
@@ -14,14 +15,14 @@ signal on_hurt(amount, cause);
 signal on_death(amount, cause);
 
 # Stats
-var level;
-var strength;
-var dexterity;
-var constitution;
-var wisdom;
-var intelligence; 
-var charisma;
-var speed;
+@export var level : int;
+@export var strength : int;
+@export var dexterity : int;
+@export var constitution : int;
+@export var wisdom : int;
+@export var intelligence : int; 
+@export var charisma : int;
+@export var speed : int;
 
 #todo getters and setters
 
@@ -92,3 +93,9 @@ func _on_hurt(amount, cause = "nothing"):
 func _on_death(amount):
 	if tags.has("Downable"):
 		state = UnitState.DOWNED
+		
+# Utility
+func update_position(tilemap: TileMap):
+	var tilemap_position = tilemap.world_to_map(position)
+	var world_position = tilemap.map_to_world(tilemap_position)
+	position = world_position
