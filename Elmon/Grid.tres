@@ -1,0 +1,8 @@
+[gd_resource type="Resource" script_class="Grid" load_steps=2 format=3 uid="uid://b741pqus0clp2"]
+
+[ext_resource type="Script" path="res://Elmon/Grid.gd" id="1_d770v"]
+
+[resource]
+script = ExtResource("1_d770v")
+size = Vector2(20, 20)
+cell_size = Vector2(80, 80)

@@ -1,4 +1,4 @@
-extends Unit
+extends UnitOld
 
 func _init():
 	strength = 18

@@ -1,4 +1,4 @@
-class_name Unit extends Node2D
+class_name UnitOld extends Node2D
 
 
 enum UnitState{
@@ -43,6 +43,9 @@ func getWisdom():
 	
 func getCharisma():
 	return charisma
+	
+func getSpeed():
+	return speed
 # Transient
 var HP; # Health
 var MP; # Magic
