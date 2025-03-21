@@ -2,6 +2,10 @@ Personal favorite hobby project, it's the one I keep coming back to :)
 
 
 ![image](https://github.com/user-attachments/assets/4d46817d-31fa-4b67-b7a6-a34ab37fee5a)
+
+My goal is to create a robust effect and tile system to create dynamic character abilities and environments
+
+
 **Effects**
 Effects are dynamic properties that modify units, tiles, objects, or environmental systems.
 Examples:
